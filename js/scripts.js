@@ -8,5 +8,5 @@ console.log(upperanimal);
 var changes = text.replace('Papugi', upperanimal);
 
 console.log(changes);
-console.log(changes.length/2);
+console.log('(0, 45): ' + changes.substr(0, 45));
 
